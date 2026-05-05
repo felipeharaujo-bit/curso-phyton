@@ -1,2 +1,4 @@
-with open("notas.txt", "a") as arquivo:
-    arquivo.write("3. viajar pelo mundo\n")
+with open("notas.txt", "r") as arquivo:
+    conteudo = arquivo.read()
+    print("Conteudo guardado no arquivo:")
+    print(conteudo)
